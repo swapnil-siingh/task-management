@@ -1,4 +1,4 @@
-export default function DeleteConfirmation({
+export function DeleteConfirmation({
     onConfirm,
     onCancel,
     dialogId = "delete-confirmation",
@@ -36,3 +36,5 @@ export default function DeleteConfirmation({
         </dialog>
     );
 }
+
+export default DeleteConfirmation;
